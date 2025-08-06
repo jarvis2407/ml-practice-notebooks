@@ -1,0 +1,13 @@
+prefix=/Users/harshathummala/Documents/harsha/venv
+exec_prefix=/Users/harshathummala/Documents/harsha/venv
+libdir=/Users/harshathummala/Documents/harsha/venv/lib
+sharedlibdir=/Users/harshathummala/Documents/harsha/venv/lib
+includedir=/Users/harshathummala/Documents/harsha/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
